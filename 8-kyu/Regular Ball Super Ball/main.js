@@ -12,5 +12,5 @@ var Ball = function(ballType = 'regular') {
   this.ballType = ballType
 };
 
-Test.assertEquals(new Ball().ballType, "regular");
-Test.assertEquals(new Ball("super").ballType, "super")
+console.log(new Ball().ballType, "regular");
+console.log(new Ball("super").ballType, "super")
