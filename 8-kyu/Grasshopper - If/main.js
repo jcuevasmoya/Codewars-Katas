@@ -7,9 +7,9 @@
 // The function receives one parameter health which will always be a whole number between -10 and 10.
 
 function checkAlive (health) {
-  if (health < 0) {
+  if (health < 1) {
     return false
-  } else () {
+  } else {
     return true
   }
 }
