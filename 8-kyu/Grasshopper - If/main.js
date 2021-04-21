@@ -13,3 +13,6 @@ function checkAlive (health) {
     return true
   }
 }
+
+console.log(checkAlive(5), true)
+console.log(checkAlive(0), false)
