@@ -8,7 +8,6 @@ var b = "Lab"
 
 var name = a + b
 
-describe('variable assignment', () => {
   it('should set variable a', () => {
     Test.assertEquals(a, 'dev')
   })
@@ -18,4 +17,3 @@ describe('variable assignment', () => {
   it('should set variable name', () => {
     Test.assertEquals(name, 'devLab')
   })
-})
