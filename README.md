@@ -10,7 +10,7 @@ Solutions with samples to test solutions for [Codewars](https://www.codewars.com
 [7-kyu](https://github.com/jcuevasmoya/Codewars-Katas/tree/main/7-kyu)
 
 
-[8-kyu](https://github.com/jcuevasmoya/Codewars-Katas/tree/master)
+
 
 ---
 
