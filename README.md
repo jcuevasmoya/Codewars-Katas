@@ -1,6 +1,6 @@
 ---
 
----Introduction---
+---INTRODUCTION---
 
 Solutions with samples to test solutions for [Codewars](https://www.codewars.com/dashboard) katas.
 
