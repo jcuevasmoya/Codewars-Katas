@@ -14,11 +14,9 @@ Solutions with samples to test solutions for [Codewars](https://www.codewars.com
 
 ---
 
-<<<<<<< HEAD
+
 ---PURPOSE---
-=======
----Purpose----
->>>>>>> e0282cbcb9557ad84b77078c0a58e0ed4f5fc49e
+
 
 To practice my coding and get better at the fundamentals while includes some algorithms.
 
