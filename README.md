@@ -14,7 +14,7 @@ Solutions with samples to test solutions for [Codewars](https://www.codewars.com
 
 ---
 
----Purpose---
+---Purpose----
 
 To practice my coding and get better at the fundamentals while includes some algorithms.
 
