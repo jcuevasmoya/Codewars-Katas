@@ -22,4 +22,4 @@ function addArrays(array1, array2) {
 
 console.log(addArrays([1,2],[4,5]),[5,7])
 console.log(addArrays([1,2,3],[4,5]))
-console.log(addArrays(["a"],["b"]),["ab"], "Should work with strings as well"))
+console.log(addArrays(["a"],["b"]),["ab"], "Should work with strings as well")
