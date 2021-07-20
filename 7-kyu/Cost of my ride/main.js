@@ -19,4 +19,35 @@
 // insurance(21,"economy",-10); // => 0
 // insurance(42,"my custom car",7); // => 455
 
+//Long Solution 
+
+function insurance(age, size, numofdays){
+  if(age < 25){
+    age = 10
+  }else{
+    age = 0
+  }
+if(size == 'economy'){
+  size = 0
+}else if(size ==='medium'){
+  size = 10
+}else{
+  size = 15
+}
+
+if(numofdays < 0){
+  numofdays = 0
+}else{
+  numofdays
+}
+    return (age*numofdays)+(size*numofdays)+(numofdays*50)
+}
+
+//Short Solution
+
+function insurance(age, size, numofdays){
+  let ageCharge = age < 25 ? 10 : 0
+  let sizeCharge = size === 'economy' ? 0 : (size === 'medium' ? 10 : 15)
+  return numofdays < 0 ? 0 : (50 + ageCharge + sizeCharge) * numofdays
+}
 
