@@ -13,10 +13,9 @@ function ensureQuestion(s) {
   }
 }
 
-const chai = require("chai");
-const assert = chai.assert;
-chai.config.truncateThreshold=0;
+// short answer
 
+const ensureQuestion = s => s.endsWith('?') ? s : s+'?'
 
 console.log(ensureQuestion(""),"?","Expected: '?'");
 console.log(ensureQuestion("Yes"),"Yes?","Expected: '?'");
