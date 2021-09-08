@@ -15,7 +15,7 @@ function ensureQuestion(s) {
 
 // short answer
 
-const ensureQuestion = s => s.endsWith('?') ? s : s+'?'
+const ensureQuestion = s => s.endsWith('?') ? s : `${s}?`
 
 console.log(ensureQuestion(""),"?","Expected: '?'");
 console.log(ensureQuestion("Yes"),"Yes?","Expected: '?'");
